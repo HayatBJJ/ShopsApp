@@ -18,7 +18,7 @@ Run `ng serve --open` for a dev server. Navigate to `http://localhost:4200/`. Th
 •	Sign in/Sign up pages.
 
 ## Backend part
-flask RESR api application.
+flask REST API application.
 ### Technologies used
 •	Python3 - A programming language that lets you work more quickly (The universe loves speed!).
 
