@@ -1,0 +1,11 @@
+
+<h3 class="text-center">My prefered shops</h3>
+<div >
+
+  <div *ngFor="let shop of shops" class="col-md-2">
+    <div class="col-sm-12"><br/></div>
+    <div><span class="badge">{{shop.name}}</span> </div>
+    <div><img src={{shop.picture}} class="img-thumbnail" alt="Cinque Terre"></div>
+    <button type="button" class="btn btn-danger col-sm-11 btn-sm" (click)="onSelect(shop)">Remove</button>
+  </div>
+</div>
