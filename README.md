@@ -60,11 +60,11 @@ http://localhost:5002/shops
 
 ### Prepare your database
 
-Create a mongodb database and name it 'shopsAppDB'
-Create the 'users' collection 
-Download this folder : dump-shops/shops 
+• Create a mongodb database and name it 'shopsAppDB'.
+• Create the 'users' collection.
+• Download this folder : dump-shops/shops.
 
-Import .bson file format on mongodb :
+• Import .bson file format on mongodb :
 
 ```
 mongorestore --drop -d shopsAppDB -c shops /path/to/file/shops.bson
